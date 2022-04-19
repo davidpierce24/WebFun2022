@@ -1,13 +1,17 @@
-body{
-    margin: 5em;
+.box{
+    height: 200px;
+    width: 200px;
     background-color: aqua;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 50px;
+    display: inline-block;
 }
 
-h1 {
-    background-color: blue;
-    color: aliceblue;
+p{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
     text-align: center;
-    font-size: 10em;
+    vertical-align: top;
 }
