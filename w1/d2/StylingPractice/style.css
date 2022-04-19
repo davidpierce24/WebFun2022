@@ -1,0 +1,39 @@
+body{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    background-color: black;
+    font-size: x-large;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 10px;
+    color: white;
+}
+
+span{
+    color: aqua;
+}
+
+h2{
+    background-color: blueviolet;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+
+h3{
+    background-color: rgb(149, 207, 240);
+    font-size: smaller;
+    padding: 10px;
+    padding-right: 15px;
+    margin: 10px;
+    text-align: right;
+    color: darkslateblue;
+    text-decoration: underline;
+}
