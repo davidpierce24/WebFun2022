@@ -1,0 +1,57 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navy{
+    background-color: navy;
+}
+
+.lnavy{
+    background-color: rgb(48, 48, 148);
+}
+
+.nav{
+    background-color: rgb(97, 97, 163);
+    height: 100px;
+}
+
+.row{
+    height:33%;
+}
+
+.navleft{
+    padding: 2px;
+}
+
+.navleft > span{
+    color: white;
+    vertical-align: top;
+}
+
+.navleft > img{
+    height:100%;
+}
+
+#searchmenu{
+    padding:.2em;
+    border-top-left-radius:1em;
+    border-bottom-left-radius: 1em;
+    height:90%
+}
+
+#searchbox{
+    width: 70em;
+    height:80%;
+}
+
+.navright{
+    color: white;
+}
+
+.navright > div{
+    display: inline-block;
+    height: 100%;
+    width: 40%;
+    vertical-align: top;
+}
