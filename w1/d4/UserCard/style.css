@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* outline: 1px solid  black; */
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10% 30% 0 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.usertop{
+    flex: 1;
+    background-color: rgb(63, 231, 231);
+}
+
+#user-circle{
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+}
+
+.usermain{
+    flex: 3;
+    background-color:white;
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    align-items: center;
+    padding: 10% 0 5% 5%;
+}
+
+#map-marker{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.place{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#gear{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    color: blue;
+    margin-top: 10px;
+    text-decoration: underline;
+}
