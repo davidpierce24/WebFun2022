@@ -7,7 +7,7 @@
 }
 
 .navbar{
-    height: 50px;
+    height: 60px;
     background-color: rgba(0, 0, 0, 0.904);
     position: fixed;
     top: 0;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     height: 2000px;
-    padding: 5% 20% 0 20%;
+    padding: 7% 20% 0 20%;
     /* background-color: antiquewhite; */
 }
 
@@ -29,7 +29,7 @@
 }
 
 .col1{
-    height: 900px;
+    height: 800px;
     flex:4;
     margin-right: 40px ;
     display: flex;
@@ -53,43 +53,120 @@
 
 .banner{
     flex: 1;
-    background-color: aqua;
+    background-color: rgb(73, 231, 231);
+}
+
+#jane{
+    height: 6em;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 4%
 }
 
 .cardbody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     flex: 3;
+    padding-left: 4%;
     border-left: 3px solid gray;
     border-right: 3px solid gray;
     border-bottom: 3px solid gray;
 }
 
+.place{
+    display: flex;
+    align-items: center;
+}
+
+#map-marker{
+    height: 22px;
+    margin: 10px 10px 10px 0;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+#gear{
+    height: 22px;
+    margin: 10px 10px 10px 0;
+}
+
 .education{
+    display: flex;
+    flex-direction: column;
     flex:2;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.top-ed{
+    flex: 1;
+    background-color: gray;
+}
+
+.body-ed{
+    flex: 6;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
 }
 
 .requests{
+    display: flex;
+    flex-direction: column;
     flex: 2;
     margin-bottom: 40px;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.top-requests{
+    flex: 1;
+    background-color: gray;
+}
+
+.body-requests{
+    flex: 5;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
 }
 
 .connections{
+    display: flex;
+    flex-direction: column;
     flex:3;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
+.top-connections{
+    flex: 1;
+    background-color: gray;
+}
 
+.body-connections{
+    flex: 4;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
 
-
-
-
+.bot-connections{
+    flex: 1;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
 
 
 
 
 .taskbar{
-    height: 20px;
+    height: 30px;
     position: fixed;
     bottom: 0px;
     background-color: gray;
