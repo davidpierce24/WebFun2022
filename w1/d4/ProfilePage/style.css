@@ -7,11 +7,45 @@
 }
 
 .navbar{
+    display: flex;
+    align-items: center;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.904);
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 0 20%;
+    color: white;
+}
+
+.navbar > h1{
+    margin-right: 3%;
+}
+
+.navbar > h3{
+    margin-right: 3%;
+}
+
+.navbar > h4{
+    margin-right: 3%;
+}
+
+.navbar > h4:hover{
+    font-size: larger;
+}
+
+.navbar > button{
+    margin-left: auto;
+    height: 50%;
+    padding: 5px;
+    font-size: medium;
+    background-color: rgb(16, 172, 172);
+    color: white;
+}
+
+
+.navbar > button:hover{
+    box-shadow: 2px 2px 5px white;
 }
 
 .bodycontainer{
@@ -20,12 +54,10 @@
     justify-content: space-between;
     height: 2000px;
     padding: 7% 20% 0 20%;
-    /* background-color: antiquewhite; */
 }
 
 .col{
     height: 1000px;
-    /* background-color: black; */
 }
 
 .col1{
@@ -53,7 +85,7 @@
 
 .banner{
     flex: 1;
-    background-color: rgb(73, 231, 231);
+    background-color:rgb(16, 172, 172);
 }
 
 #jane{
@@ -106,7 +138,6 @@
     display: flex;
     flex-direction: column;
     flex:2;
-    /* background-color: aqua; */
 }
 
 .top-ed{
@@ -137,7 +168,6 @@
     flex-direction: column;
     flex: 2;
     margin-bottom: 30px;
-    /* background-color: aqua; */
 }
 
 .top-requests{
@@ -201,7 +231,6 @@
     display: flex;
     flex-direction: column;
     flex:3;
-    /* background-color: aqua; */
 }
 
 .top-connections{
@@ -289,8 +318,6 @@
 .bot-connections > h4:hover{
     color: rgb(0, 174, 255);
 }
-
-
 
 
 .taskbar{
