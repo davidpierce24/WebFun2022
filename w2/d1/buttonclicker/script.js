@@ -13,3 +13,7 @@ function out(element) {
 function disappear(element) {
     element.remove();
 }
+
+function alerts(element) {
+    alert('Ninja was liked');
+}
