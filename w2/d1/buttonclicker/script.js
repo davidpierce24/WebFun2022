@@ -9,3 +9,7 @@ function over(element) {
 function out(element) {
     element.style.opacity = "100%";
 }
+
+function disappear(element) {
+    element.remove();
+}
