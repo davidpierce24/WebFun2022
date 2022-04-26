@@ -14,9 +14,9 @@
     <div class="navbar">
         <h1>DojoWeather</h1>
         <ul>
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li onclick="popup(this)">Burbank</li>
+            <li onclick="popup(this)">Chicago</li>
+            <li onclick="popup(this)">Dallas</li>
         </ul>
     </div>
     <div class="container">
@@ -24,8 +24,8 @@
             <div class="top-body">
                 <h1>San Jose</h1>
                 <p>show temperature in </p>
-                <select name="temp" id="temp">
-                    <option value="celcius">°C</option>
+                <select name="temp" id="temp" onchange="far()" >
+                    <option value="celcius" >°C</option>
                     <option value="far">°F</option>
                 </select>
             </div>
@@ -35,8 +35,8 @@
                     <img src="assets/some_rain.png" alt="some_rain">
                     <h3>some rain</h3>
                     <div class="temps">
-                        <p class="red" >24°</p>
-                        <p class="blue" >18°</p>
+                        <p class="red" id="red1" >24°</p>
+                        <p class="blue blue1" >18°</p>
                     </div>
                 </div>
                 <div class="weatherbar">
@@ -44,8 +44,8 @@
                     <img src="assets/some_sun.png" alt="some_sun">
                     <h3>some sun</h3>
                     <div class="temps">
-                        <p class="red" >27°</p>
-                        <p class="blue" >19°</p>
+                        <p class="red red2" >27°</p>
+                        <p class="blue blue2" >19°</p>
                     </div>
                 </div>
                 <div class="weatherbar">
@@ -53,8 +53,8 @@
                     <img src="assets/some_clouds.png" alt="some_clouds">
                     <h3>some clouds</h3>
                     <div class="temps">
-                        <p class="red" >21°</p>
-                        <p class="blue" >16°</p>
+                        <p class="red red3" >21°</p>
+                        <p class="blue blue3" >16°</p>
                     </div>
                 </div>
                 <div class="weatherbar">
@@ -62,8 +62,8 @@
                     <img src="assets/some_sun.png" alt="some_sun">
                     <h3>some sun</h3>
                     <div class="temps">
-                        <p class="red" >26°</p>
-                        <p class="blue" >21°</p>
+                        <p class="red red4" >26°</p>
+                        <p class="blue blue4" >21°</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                         content and ads, to provide social media features and to analyze 
                         our traffic. <a href="#">Read more...</a></p>
                 </div>
-                <button class="btn">I Accept</button>
+                <button class="btn" onclick="disappear()" >I Accept</button>
             </div>
         </div>
     </div>

@@ -80,6 +80,7 @@ li:hover{
     flex: 1;
     background-color: rgb(228, 228, 228);
     border-radius: 10px;
+    /* margin-bottom: 100px; */
 }
 
 img{
@@ -105,6 +106,8 @@ img{
 }
 
 .cookies{
+    /* position: fixed;
+    bottom: 0px; */
     display: flex;
     flex: 1;
     background-color: rgb(228, 228, 228);
@@ -139,4 +142,8 @@ img{
     padding: 5px 5px;
     border: 2px solid black;
     box-shadow: 3px 3px 3px black;
+}
+
+.btn:hover {
+    opacity: 60%;
 }
