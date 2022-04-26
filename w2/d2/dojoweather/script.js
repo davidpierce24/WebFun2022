@@ -10,14 +10,14 @@ function popup(element) {
     alert('Loading weather report...')
 }
 
-var red2 = document.querySelector('.red2');
-var red3 = document.querySelector('.red3');
-var red4 = document.querySelector('.red4');
+// var red2 = document.querySelector('.red2');
+// var red3 = document.querySelector('.red3');
+// var red4 = document.querySelector('.red4');
 
-var blue1 = document.querySelector('.blue1');
-var blue2 = document.querySelector('.blue2');
-var blue3 = document.querySelector('.blue3');
-var blue4 = document.querySelector('.blue4');
+// var blue1 = document.querySelector('.blue1');
+// var blue2 = document.querySelector('.blue2');
+// var blue3 = document.querySelector('.blue3');
+// var blue4 = document.querySelector('.blue4');
 
 
 function far() {
