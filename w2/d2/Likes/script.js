@@ -11,16 +11,16 @@ var like22 = 12;
 var like33 = 9;
 
 function uptic1() {
-    like1.innerText = like11 + ' likes';
     like11 ++;
+    like1.innerText = like11 + ' likes';
 }
 
 function uptic2() {
-    like2.innerText = like22 + ' likes';
     like22 ++;
+    like2.innerText = like22 + ' likes';
 }
 
 function uptic3() {
-    like3.innerText = like33 + ' likes';
     like33 ++;
+    like3.innerText = like33 + ' likes';
 }
