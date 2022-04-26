@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>DojoWeather</h1>
+        <ul>
+            <li>Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="body-container">
+            <div class="top-body">
+                <h1>San Jose</h1>
+                <p>show temperature in </p>
+                <select name="temp" id="temp">
+                    <option value="celcius">°C</option>
+                    <option value="far">°F</option>
+                </select>
+            </div>
+            <div class="weather">
+                <div class="weatherbar"></div>
+                <div class="weatherbar"></div>
+                <div class="weatherbar"></div>
+                <div class="weatherbar"></div>
+            </div>
+            <div class="cookies"></div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 80%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+    min-width: 700px;
+}
+
+.navbar > h1{
+    font-size: 2.5em;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    font-size: x-large;
+}
+
+li:hover{
+    opacity: 60%;
+}
+
+.body-container{
+    /* margin-top: 30px; */
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+    /* background-color: aqua; */
+    /* border-radius: 10px; */
+    border-bottom: 4px solid black;
+    /* padding: 10px 50px; */
+}
+
+.top-body > p{
+    margin-left: auto ;
+    margin-right: 20px;
+    font-size: larger;
+}
+
+#temp{
+    padding: 5px 10px;
+}
+
+.weather{
+    display: flex;
+    flex: 5;
+    background-color: white;
+    gap: 20px;
+}
+
+.weatherbar{
+    flex: 1;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.cookies{
+    flex: 2;
+    background-color: aqua;
+    border-radius: 10px;
+}
