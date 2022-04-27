@@ -9,3 +9,12 @@ function disappear(element) {
     element.parentElement.parentElement.remove();
 }
 
+
+function yes() {
+    document.querySelector('.badge1').innerText --;
+    document.querySelector('.badge2').innerText ++;
+}
+
+function no() {
+    document.querySelector('.badge1').innerText --;
+}
